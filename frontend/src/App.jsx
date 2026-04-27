@@ -1,12 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import CartPopup from "./components/CartPopup";
-import ContactSection from "./components/ContactSection";
 import FeaturesSection from "./components/FeaturesSection";
 import HeroSection from "./components/HeroSection";
 import HomeFeaturedProducts from "./components/HomeFeaturedProducts";
 import AboutPage from "./components/AboutPage";
 import CategoriesPage from "./components/CategoriesPage";
-import ContactPage from "./components/ContactPage";
 import DirectOrderModal from "./components/DirectOrderModal";
 import ProductModal from "./components/ProductModal";
 import ProductPage from "./components/ProductPage";
@@ -500,13 +498,6 @@ function App() {
             />
 
             <ReviewsSection reviews={reviews} />
-
-            <ContactSection
-              newsletterEmail={newsletterEmail}
-              newsletterState={newsletterState}
-              onSetEmail={setNewsletterEmail}
-              onSubmit={handleNewsletterSubmit}
-            />
           </>
         ) : currentPage === "products" ? (
           <>

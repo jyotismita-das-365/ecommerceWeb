@@ -14,9 +14,9 @@ function CartPopup({
   onUpdateOrderCustomer,
   formatPrice,
 }) {
-  if (!open) return null;
-
   const [errors, setErrors] = useState({});
+
+  if (!open) return null;
 
   const validateAndPlace = (e) => {
     if (e && e.preventDefault) e.preventDefault();

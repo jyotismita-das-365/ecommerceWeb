@@ -27,12 +27,12 @@ function SiteFooter({ onNavigatePage }) {
               About
             </button>
             <button type="button" onClick={() => onNavigatePage("contact")}>
-              Contact
+              Contact Us
             </button>
           </div>
         </div>
         <div>
-          <h4 className="font-semibold text-white">Contact</h4>
+          <h4 className="font-semibold text-white">Support</h4>
           <div className="mt-3 space-y-2 text-sm text-slate-400">
             <p>Dibyajyoti Pradhan</p>
             <a

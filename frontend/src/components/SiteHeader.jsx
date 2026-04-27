@@ -17,7 +17,7 @@ function SiteHeader({
     { label: "Products", page: "products" },
     { label: "Categories", page: "categories" },
     { label: "About", page: "about" },
-    { label: "Contact", page: "contact" },
+    { label: "Contact Us", page: "contact" },
   ];
 
   const navClassName = (page) =>
