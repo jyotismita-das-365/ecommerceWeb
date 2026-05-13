@@ -15,6 +15,7 @@ import ToastMessage from "./components/ToastMessage";
 import WishlistPage from "./components/WishlistPage";
 import CartPage from "./components/CartPage";
 import CheckoutPage from "./components/CheckoutPage";
+import ContactPage from "./components/ContactPage";
 import OrderConfirmModal from "./components/OrderConfirmModal";
 import {
   categories,
@@ -578,7 +579,6 @@ function App() {
             onSetEmail={setNewsletterEmail}
             onSubmit={handleNewsletterSubmit}
             onBackHome={() => navigateToPage("home")}
-            formatPrice={formatPrice}
           />
         )}
       </main>
